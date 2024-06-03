@@ -4,7 +4,7 @@ const packageBase = require('./package-json/package-base.json');
 const packageAddOn = (alternative, build) => require(`./package-json/package-${alternative}-${build}.json`);
 
 
-const alternatives = ['initial', 'alt1', 'alt2', 'alt3', 'alt4', 'alt5']
+const alternatives = ['initial', 'alt1', 'alt2', 'alt3', 'alt4', 'alt5', 'alt6']
 const bundlers = ['esbuild', 'webpack']
 
 const triggerRunYarn = () => cp.execSync('yarn --no-lockfile', { cwd: __dirname, stdio: 'inherit' });

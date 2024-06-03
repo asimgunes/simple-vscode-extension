@@ -40,12 +40,10 @@
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
-    "vscode:prepublish": "yarn compile",
     "build": "yarn compile && yarn build:esbuild && yarn build:webpack",
     "build:webpack": "webpack --mode development",
     "build:esbuild": "node ./esbuild.js",
-    "compile": "tsc -b",
-    "watch": "tsc -b -w",
+    "compile": "tsc -noEmit",
     "lint": "eslint ./src --ext .ts,.tsx",
     "package": "vsce package",
     "serve": "serve --cors -l 5000 --ssl-cert ./certs/localhost.pem --ssl-key ./certs/localhost-key.pem"

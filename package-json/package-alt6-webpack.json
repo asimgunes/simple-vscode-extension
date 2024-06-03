@@ -1,0 +1,5 @@
+{
+  "version": "1.0.0-alternative6-webpack",
+  "browser": "./dist/web/wp/extension.js",
+  "extensionKind": ["ui"]
+}

@@ -80,3 +80,13 @@ browser: defined
 main: not defined
 extensionKind: not defined
 ```
+
+## Alternative 6
+
+Extension did not loaded!
+
+```
+browser: defined
+main: not defined
+extensionKind: ['ui']
+```
