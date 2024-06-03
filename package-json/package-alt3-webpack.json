@@ -1,0 +1,5 @@
+{
+  "version": "1.0.0-alternative3-webpack",
+  "browser": "./dist/web/wp/extension.js",
+  "main": "./dist/desktop/extension.js"
+}

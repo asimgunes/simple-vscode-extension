@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0-alternative4-esbuild",
+  "browser": "./dist/web/es/extension.js",
+  "main": "./dist/desktop/extension.js",
+  "extensionKind": ["ui"]
+}

@@ -1,0 +1,9 @@
+target
+dist
+node_modules
+certs
+out
+package.json
+package-lock.json
+*.vsix
+yarn.lock

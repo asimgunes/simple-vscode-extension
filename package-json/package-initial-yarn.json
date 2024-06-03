@@ -1,0 +1,3 @@
+{
+  "main": "./dist/desktop/extension.js"
+}
