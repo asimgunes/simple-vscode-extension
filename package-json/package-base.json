@@ -14,7 +14,7 @@
   "engines": {
     "vscode": "^1.88.0"
   },
-  "activationEvents": ["ag.simple.run"],
+  "activationEvents": ["onCommand:ag.simple.run"],
   "contributes": {
     "commands": [
       {
