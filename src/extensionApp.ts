@@ -11,7 +11,7 @@ const handler = (scope: string) => async () => {
   );
 };
 
-export async function activate(
+export async function activateApp(
   context: vscode.ExtensionContext,
   scope: string
 ): Promise<void> {

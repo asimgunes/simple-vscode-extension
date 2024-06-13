@@ -3,7 +3,7 @@ const path = require("path");
 /** @typedef { import('webpack').Configuration } WebpackConfig */
 /** @type WebpackConfig */
 const webConfig = {
-    target: 'webworker',
+    target: 'web',
     entry: {
         extension: './src/extensionWeb.ts',
     },

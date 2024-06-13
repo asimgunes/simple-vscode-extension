@@ -20,6 +20,10 @@ const webOptions = {
 	entryPoints: ['src/extensionWeb.ts'],
 	outfile: 'dist/web/es/extension.js',
 	format: 'cjs',
+	mainFields: ['browser', 'main', 'module'],
+	// Banner&footer workaround for loading web extension to Theia platform
+	banner:{ js: "if(typeof module === 'undefined') { var module = {}; }" },
+	footer:{ js: "exports.activate = activate;" },
 	...sharedWebOptions,
 };
 
